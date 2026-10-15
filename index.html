@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>John Paul Oca | Personal Portfolio</title>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="nav-container">
+      <a href="#home" class="brand-logo">John Paul Oca<span class="dot">.</span></a>
+      
+      <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <nav id="navMenu">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About Me</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero-section">
+      <div class="hero-container">
+        <div class="hero-image-wrapper">
+          <img src="Photos/1x1_pic.jpg" alt="John Paul Oca 1x1 pic" class="profile-img">
+          <div class="img-glow"></div>
+        </div>
+        <div class="hero-content">
+          <span class="badge">Software Developer & Student</span>
+          <h1>John Paul <span class="accent-text">Oca</span></h1>
+          <p class="bio">
+            Hello! I'm John Paul Oca, an IT Student from Bulacan State University.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="section-container">
+        <div class="about-header">
+          <h2>ABOUT <span class="accent-text">ME</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text-content">
+            <h3>PROFILE</h3>
+            <p>
+              My name is John Paul Oca, a BSIT student from Bulacan State University.  
+            </p>
+            <p>
+              Originating from Santa Maria, Bulacan, I chose BSIT because I'm interested in how technology is used to solve real-world problems. 
+            </p>
+            <p>
+              As I deepen my focus in being a Software Developer, this portfolio serves as a showcase of my technical growth, hands-on projects, and dedication to building resilient, secure systems for the digital future.
+            </p>
+          </div>
+
+          <div class="about-photo-single">
+            <div class="photo-card">
+              <img src="Photos/selfie_of_me.jpg" alt="John Paul Oca portrait" class="profile-img">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <div class="section-container">
+        <div class="section-header">
+          <h2>FEATURED <span class="accent-text">PROJECTS</span></h2>
+          <p>A selection of recent development projects and desktop applications.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="card-img-wrapper">
+              <img src="Photos/membership_system_pic.jpg" alt="Student Organization Membership & Dues System preview">
+            </div>
+            <div class="card-content">
+              <div class="tags">
+                <span class="tag">Java</span>
+                <span class="tag">Desktop App</span>
+                <span class="tag">Management System</span>
+              </div>
+              <h3>Student Organization Membership & Dues System</h3>
+              <p>A desktop application designed to streamline the administrative processes, membership records, and dues collection for student organizations within academic institutions.</p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="card-img-wrapper">
+              <img src="Photos/bicycle_system_pic.jpg" alt="Bicycle Identification System preview">
+            </div>
+            <div class="card-content">
+              <div class="tags">
+                <span class="tag">Java</span>
+                <span class="tag">Desktop App</span>
+                <span class="tag">Inventory & Sales</span>
+              </div>
+              <h3>Bicycle Identification System</h3>
+              <p>A desktop management system built for bicycle shops to maintain inventory, register bicycle identification numbers, and efficiently track sales transactions.</p>          
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="footer-container">
+      <div class="footer-content">
+        <h2>Contact <span class="accent-text">Links</span></h2>
+        <p>I'm currently available for freelance opportunities, part-time roles, or collaborative projects.</p>
+        
+        <p class="email-link">johnpauloca77@gmail.com</p>
+
+        <div class="social-links">
+          <a href="https://github.com/jpoca77" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub Profile">
+            GitHub
+          </a>
+          <a href="https://www.facebook.com/johnpauloca12345/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Facebook Profile">
+            Facebook
+          </a>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 John Paul Oca. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
